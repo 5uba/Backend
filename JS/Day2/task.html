@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 Task</title>
+</head>
+<body>
+    <script>
+// Task 1 - Using a for loop, print numbers from 1 to 10.
+for (let num = 1; num <= 10; num++) {
+    console.log(num);
+}
+// Task 2 - Using a for loop and if condition, print only even numbers from 1 to 20.
+for (let a = 1; a <= 20; a++) {
+    if (a % 2 === 0) {
+        console.log(a);
+    }
+}
+// Task 3 - Create a variable: let num = 5; Using a for loop, print the multiplication table of 5.
+let num = 5;
+for (let b = 1; b <= 10; b++) {
+    console.log(num + " x " + b + " = " + (num * b));
+}
+// Task 4 - Using a nested for loop, create the following pattern.
+for (let m = 1; m <= 5; m++) {
+    let row = "";
+    for (let n = 1; n <= m; n++) {
+        row = row + "* ";
+    }
+    console.log(row);
+}
+// Task 5 - Using a nested for loop, create the following number pattern.
+for (let x = 1; x <= 5; x++) {
+    let row = "";
+    for (let y = 1; y <= x; y++) {
+        row = row + y + " ";
+    }
+    console.log(row);
+}
+
+    </script>
+</body>
+</html>
