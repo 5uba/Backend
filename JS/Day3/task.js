@@ -24,7 +24,6 @@ console.log("Outside Balance:", balance);
 let account = createBankAccount();
 account(); 
 
-
 // 2. DEPOSIT USING CLOSURE
 // Create a function called createAccount().
 // Requirements:
@@ -68,7 +67,7 @@ account1.getBalance();
 //               - increment() should increase count by 1. 
 //               - decrement() should decrease count by 1. 
 //               - getCount() should display the current count. 
-// Example: counter.increment() counter.increment() counter.increment() counter.decrement() counter.getCount() 
+// Example: counter.increment() , counter.increment() , counter.increment() , counter.decrement() , counter.getCount() 
 // Expected Output: 2
 
 function createCounter() {

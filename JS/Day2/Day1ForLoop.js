@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-    <script>
-        // print even number from 2 t0 10:
+// print even number from 2 t0 10:
         for(let n = 2; n<=10; n +=2){
             console.log(n);
         }
@@ -22,6 +12,3 @@
         // 6
         // 8
         // 10 
-    </script>
-</body>
-</html>

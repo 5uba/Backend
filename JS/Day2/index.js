@@ -10,12 +10,10 @@
 // let a = 10;
 // a += 20 a = a+20 
 
- 
 // const a 
 // const a = 10
 // const a = 11
 //  a = 11
-
 // const a
 
 
@@ -26,33 +24,24 @@
 
 // function add(){
 
-//    console.log('running');
+//  console.log('running');
    
 
 // }
 // add()
 // let add = function (){
-//    console.log('running');
-   
+//    console.log('running'); 
 // }
-
 // let add = ()=>{
-
 // }
 
 
 // console.log('start');
 
-
 // for(let a = 1; a <= 1000;a++){
-
-//    console.log(a);
-   
+//   console.log(a);
 // }
-
 // console.log('stop');
-
-
 
 // AACLID
 
@@ -75,7 +64,6 @@
    
 // } 
 
-
 //Primitive Datatype
 
 // const title = ""
@@ -86,18 +74,14 @@
 
 // console.log(`This is the data types - ${title},${age},${isNull},${isActive}`);
 
-
 // if(title) {
-   
 //    console.log('running');
-   
 // }
 
 
 // non primitive data type
 
 // const arr = [1,2,3,4,"react",5,6,]
-
 // const obj = {name:"react",react:[1,2,3,4]}
 
 
