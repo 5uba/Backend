@@ -62,7 +62,38 @@ account1.deposit(500);
 account1.deposit(200);
 account1.getBalance();
 
+//3. PRIVATE COUNTER Create a function called createCounter(). 
+// Requirements: - Create: let count = 0 
+//               - Return three functions: increment() decrement() getCount() 
+//               - increment() should increase count by 1. 
+//               - decrement() should decrease count by 1. 
+//               - getCount() should display the current count. 
+// Example: counter.increment() counter.increment() counter.increment() counter.decrement() counter.getCount() 
+// Expected Output: 2
 
+function createCounter() {
+    let count = 0;
+    function increment() {
+        count++;
+    }
+    function decrement() {
+        count--;
+    }
+    function getCount() {
+        console.log(count);
+    }
+    return {
+        increment: increment,
+        decrement: decrement,
+        getCount: getCount
+    };
+}
+let counter = createCounter();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.decrement();
+counter.getCount();
 
 
 
