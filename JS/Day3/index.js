@@ -160,6 +160,5 @@ result()
 
 
 a += 10000
-
 console.log(a);
 
