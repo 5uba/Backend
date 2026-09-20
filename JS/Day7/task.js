@@ -1,4 +1,5 @@
 // Write the Syntex of the Promise and ASYNC & AWAIT
+/*
 1. Promise Syntax:
 const promise = new Promise((resolve, reject) => {
     if (condition) {
@@ -27,6 +28,7 @@ const functionName = async () => {
 };
 
 functionName();
+*/
 
 /*TASK 1 – CALLBACK
 Create a function called calculate().
