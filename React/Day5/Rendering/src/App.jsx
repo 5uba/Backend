@@ -2,8 +2,8 @@ import NonPrimitive from "./Components/NonPrimitive";
 import Primitive from "./Components/Primitive";
 import PrimitiveDataRendering from "./Components/PrimitiveDataRendering";
 import ArrayRendering from "./Components/ArrayRendering";
-import ObjectRendering from "./ObjectRendering";
-import ArrayOfObjectMap from "./ArrayOfObjectMap";
+import ObjectRendering from "./Components/ObjectRendering";
+import ArrayOfObjectMap from "./Components/ArrayOfObjectMap";
 function App() {
 
   return (
