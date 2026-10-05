@@ -2,7 +2,7 @@ import React from 'react'
 const App = () => {
 
   // 1. Name Change
-  const [name, setName] = React.useState("Ravi")
+  const [name, setName] = React.useState("Arun")
   const changeName = () => {
     setName("Kumar")
   }
