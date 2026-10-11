@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+#root {
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+#root > div > div {
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+p, li {
+  color: #555;
+  margin: 8px 0;
+}

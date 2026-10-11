@@ -1,3 +1,4 @@
+import './App.css'
 import NonPrimitive from "./Components/NonPrimitive";
 import Primitive from "./Components/Primitive";
 import PrimitiveDataRendering from "./Components/PrimitiveDataRendering";
