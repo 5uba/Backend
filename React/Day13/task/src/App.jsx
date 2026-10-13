@@ -1,10 +1,10 @@
 
-import { BrowserRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="p-5">
         <h1 className="text-2xl font-bold mb-5">
           Day13 React Tasks
@@ -34,7 +34,7 @@ function App() {
 
         <AppRoutes />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

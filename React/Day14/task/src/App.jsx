@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { HashRouter, Link, Routes, Route } from "react-router-dom";
 
 import TaskOne from "./components/TaskOne";
 import TaskTwo from "./components/TaskTwo";
@@ -9,7 +9,7 @@ import TaskFive from "./components/TaskFive";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-gray-100">
 
         <header className="bg-white shadow-sm p-6">
@@ -66,7 +66,7 @@ function App() {
         </main>
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
