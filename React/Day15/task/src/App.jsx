@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { HashRouter, Link, Routes, Route } from "react-router-dom";
 
 import EmployeeForm from "./components/EmployeeForm";
 import ProductForm from "./components/ProductForm";
@@ -9,7 +9,7 @@ import StudentMarksForm from "./components/StudentMarksForm";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <h1>React Form Handling Tasks</h1>
 
       <nav>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/expense" element={<ExpenseForm />} />
         <Route path="/student" element={<StudentMarksForm />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

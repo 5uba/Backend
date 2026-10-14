@@ -1,8 +1,6 @@
-import TaskOne from "./components/taskOne";
-import TaskThree from "./components/taskThree";
-import TaskTwo from "./components/taskTwo";
-
-
+import TaskOne from "./components/TaskOne";
+import TaskThree from "./components/TaskThree";
+import TaskTwo from "./components/TaskTwo";
 function App() {
   return (
     <div className="p-4">
