@@ -54,7 +54,6 @@ function ExpenseForm() {
           value={form.amount} onChange={handleChange} required />
         <input name="category" placeholder="Category"
           value={form.category} onChange={handleChange} required />
-
         <button type="submit">
           {editId !== null ? "Update Expense" : "Add Expense"}
         </button>

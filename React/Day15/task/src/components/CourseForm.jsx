@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 function CourseForm() {
@@ -60,5 +59,4 @@ function CourseForm() {
     </div>
   );
 }
-
 export default CourseForm;

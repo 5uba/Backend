@@ -7,7 +7,6 @@ function EmployeeForm() {
     department: "",
     salary: ""
   });
-
   const [employees, setEmployees] = useState([]);
   const [editId, setEditId] = useState(null);
 
