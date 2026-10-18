@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 function TaskThree() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
