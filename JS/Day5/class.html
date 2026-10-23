@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(174, 237, 239);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Press Ctrl + Shift + I to open the console and view the output</h1>
+    <script>
+      // function add (a){
+      //   console.log(a);
+      // }
+
+      // let x = add;
+      // x(10)
+
+      // const election = (dmk,admk,tvk)=>{
+      //   console.log(`First ${dmk+admk}`);
+      //   let resultnew = dmk+" "+admk
+      //   tvk(resultnew)
+      // }
+
+      // const result = (res)=>{
+      //  console.log('Result',res);
+      // }
+      // election("MKS","EPS",result)
+
+      // const calculate = (a,b,cb)=>{
+      //   let result_1 = a+b
+      //   cb(result_1)
+      // }
+      // calculate(10,20, (result)=>{
+      //   console.log("result",result);
+      // })
+      // const evennumber = (number,cb)=>{
+      //   if(number%2===0){
+      //     cb("even")
+      //   }else{
+      //     cb("Odd")
+      //   }
+      // }
+      // const send = (result)=>{
+      //   console.log(result);
+      // }
+
+      // evennumber(11,send)
+      // console.log('Start');
+      //  setInterval(()=>{
+      // console.log('process i am going to out of the browser');
+      //  },3000)
+      // console.log('Stop');
+
+      // const newres = ()=>{
+      //   console.log('ruuning');
+      //   return ()=>{
+      //     console.log('Running');
+      //   }
+      // }
+      //  newres()()
+
+      // const add = ()=>{
+      //   let a = 10
+      //   return ()=>{
+      //     a++
+      //     console.log(a);
+      //   }
+      // }
+      // const result = add()
+      // result()
+      // result()
+
+      const newadd = () => {
+        let a = 10;
+        return () => {
+          a++;
+
+          console.log("a", a);
+        };
+      };
+
+      const result = newadd();
+      result();
+      a += 10000;
+
+      console.log(a);
+    </script>
+  </body>
+</html>

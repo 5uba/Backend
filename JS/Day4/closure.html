@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(174, 237, 239);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Press Ctrl + Shift + I to open the console and view the output</h1>
+    <script>
+      const accountCreate = () => {
+        let balance = 1000;
+
+        return {
+          balanceCheck: () => {
+            return balance;
+          },
+
+          deposite: (amount) => {
+            return (balance += amount);
+          },
+          withdraw: (amount) => {
+            if (amount <= balance) {
+              return (balance -= amount);
+            } else {
+              return balance;
+            }
+          },
+        };
+      };
+
+      // balance += 200000
+      // console.log(balance);
+
+      const obj = { depost: 2635, coount: 5767 };
+
+      // console.log(accountCreate());
+
+      const result = accountCreate();
+
+      console.log(result.balanceCheck());
+
+      console.log(result.deposite(20000));
+      console.log(result.balanceCheck());
+
+      console.log(result.withdraw(10000));
+
+      console.log(result.balanceCheck());
+    </script>
+  </body>
+</html>
