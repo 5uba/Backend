@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(174, 237, 239);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let bill = 500;
+let total = 0;
+let months = 6;
+for (let a = 1; a <= months; a++) {
+    console.log("Month " + a + " = ₹" + bill);
+    total = total + bill;
+    bill = bill + 200;
+}
+console.log("Total bill = ₹" + total);
+//Explanation:
+// bill = 500 — First month bill is ₹500.
+// total = 0 — Stores the total bill amount.
+// months = 6 — Loop runs for 6 months.
+// for (let a = 1; a <= months; a++) — Repeats from Month 1 to Month 6.
+// console.log() — Prints the current month's bill.
+// total = total + bill — Adds the current bill to the total.
+// bill = bill + 200 — Increases the bill by ₹200 for the next month.
+// After the loop, prints the total of all 6 months.
+    </script>
+</body>
+</html>
