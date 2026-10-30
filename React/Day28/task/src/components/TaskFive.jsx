@@ -81,7 +81,7 @@ const TaskFive = () => {
     return (
         <div>
 
-            <h1>Fetch Users</h1>
+            <h1>Fetch Users - Task 5</h1>
 
             {state.loading && <h2>Loading...</h2>}
 
@@ -94,8 +94,6 @@ const TaskFive = () => {
                     <h3>Name: {user.name}</h3>
 
                     <p>Email: {user.email}</p>
-
-                    <hr />
 
                 </div>
 

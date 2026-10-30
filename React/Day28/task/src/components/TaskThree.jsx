@@ -23,7 +23,7 @@ const TaskThree = () => {
     return (
         <div>
 
-            <h1>Show / Hide Password</h1>
+            <h1>Show / Hide Password - Task 3</h1>
 
             <input
                 type={showPassword ? "text" : "password"}

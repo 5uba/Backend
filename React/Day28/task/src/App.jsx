@@ -6,6 +6,7 @@ import TaskFour from "./components/TaskFour";
 import TaskFive from "./components/TaskFive";
 import TaskSix from "./components/TaskSix";
 import TaskSeven from "./components/TaskSeven";
+import TaskEight from "./components/TaskEight";
 
 const App = () => {
 
@@ -32,6 +33,8 @@ const App = () => {
 
             <TaskSeven />
             <hr />
+
+            <TaskEight/>
 
         </div>
     );

@@ -53,7 +53,7 @@ const TaskSeven = () => {
     return (
         <div>
 
-            <h1>Todo Application</h1>
+            <h1>Todo Application - Task 7</h1>
 
             <input
                 type="text"

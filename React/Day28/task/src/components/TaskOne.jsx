@@ -26,7 +26,7 @@ const TaskOne = () => {
     return (
         <div>
 
-            <h1>Counter Application</h1>
+            <h1>Counter Application - Task 1</h1>
 
             <h2>Count: {count}</h2>
 

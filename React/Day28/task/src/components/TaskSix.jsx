@@ -70,7 +70,7 @@ const TaskSix = () => {
     return (
         <div>
 
-            <h1>Search Users</h1>
+            <h1>Search Users - Task 6</h1>
 
             <input
                 type="text"
@@ -98,7 +98,6 @@ const TaskSix = () => {
 
                         <p>Email: {user.email}</p>
 
-                        <hr />
 
                     </div>
 

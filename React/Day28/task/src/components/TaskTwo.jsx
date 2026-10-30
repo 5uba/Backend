@@ -26,7 +26,7 @@ const TaskTwo = () => {
     return (
         <div>
 
-            <h1>Custom Counter</h1>
+            <h1>Custom Counter - Task 2</h1>
 
             <h2>Count: {count}</h2>
 
