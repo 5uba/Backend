@@ -1,0 +1,1 @@
+Platform: win32 Architecture: x64 Hostname: LAPTOP-MDOVQG5T Total RAM: 16806244352
