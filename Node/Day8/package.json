@@ -1,4 +1,12 @@
 {
+  "name": "day8-backend",
+  "version": "1.0.0",
+  "description": "CRUD API with Node.js, Express, MongoDB Atlas and Mongoose",
+  "main": "CRUD/index.js",
+  "scripts": {
+    "start": "node CRUD/index.js",
+    "dev": "nodemon CRUD/index.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^18.0.10",
